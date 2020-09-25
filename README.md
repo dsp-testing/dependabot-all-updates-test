@@ -1,1 +1,2 @@
 # dependabot-all-updates-test
+
