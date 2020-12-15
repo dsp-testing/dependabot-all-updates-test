@@ -5,7 +5,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "gradle"
+  - package-ecosystem: "gomod"
+    directory: "/nested_go"
+    schedule:
+      interval: "daily"
+- package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "daily"
