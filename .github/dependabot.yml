@@ -9,7 +9,7 @@ updates:
     directory: "/nested_go"
     schedule:
       interval: "daily"
-- package-ecosystem: "gradle"
+  - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "daily"
