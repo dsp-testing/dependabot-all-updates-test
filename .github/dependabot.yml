@@ -8,6 +8,10 @@ updates:
     ignore:
     - dependency-name: rsc.io/qr
       versions: [">= 0.2.a, < 0.3"]
+    - dependency-name: "rails"
+      update-types: ["version-update:semver-patch"]
+    - dependency-name: "rails"
+      update-types: ["version-update:semver-minor"]
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
