@@ -5,13 +5,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    ignore:
-    - dependency-name: rsc.io/qr
-      versions: [">= 0.2.a, < 0.3"]
-  - package-ecosystem: "gomod"
-    directory: "/nested_go"
-    schedule:
-      interval: "daily"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
