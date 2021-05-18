@@ -14,7 +14,7 @@ updates:
     schedule:
       interval: "daily"
     ignore:
-    - dependency-name: "com.zaxxer-HikariCP"
+    - dependency-name: "com.zaxxer:HikariCP"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
