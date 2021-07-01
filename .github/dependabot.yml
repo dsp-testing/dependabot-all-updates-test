@@ -1,5 +1,5 @@
 version: 2
-secrets:
+registries:
   npm-test:
     type: npm-registry
     url: artifactory.acme.com/artifactory/api/npm/npm-stable-and-cache
