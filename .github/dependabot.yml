@@ -1,9 +1,4 @@
 version: 2
-registries:
-  npm-test:
-    type: npm-registry
-    url: artifactory.acme.com/artifactory/api/npm/npm-stable-and-cache
-    token: ${{secrets.MY_ARTIFACTORY_TOKEN}}
 
 # Editing should run the check_run
 updates:
