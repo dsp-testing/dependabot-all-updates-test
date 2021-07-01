@@ -1,5 +1,6 @@
 version: 2
 
+# Editing should run the check_run
 updates:
   - package-ecosystem: "gomod"
     directory: "/"
