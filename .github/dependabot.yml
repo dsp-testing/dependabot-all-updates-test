@@ -1,5 +1,6 @@
 version: 2
 
+# Updating this file should trigger a check_run.. Let's see
 updates:
   - package-ecosystem: "gomod"
     directory: "/"
