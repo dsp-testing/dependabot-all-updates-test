@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/dsp-testing/dependabot-all-updates-test",
   "dependencies": {
+    "@github/hotkey": "^1.4.0",
     "@github/mini-throttle": "^2.0.0",
     "fetch-factory": "^0.0.1"
   },
