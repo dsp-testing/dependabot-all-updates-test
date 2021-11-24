@@ -7,7 +7,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "bundler"
-      directory: "/"
+    directory: "/"
     schedule:
       interval: "daily"
     ignore:
