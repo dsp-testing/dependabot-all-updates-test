@@ -6,6 +6,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+  - package-ecosystem: "bundler"
+      directory: "/"
+    schedule:
+      interval: "daily"
     ignore:
     - dependency-name: "rails"
       update-types: ["version-update:semver-patch"]
