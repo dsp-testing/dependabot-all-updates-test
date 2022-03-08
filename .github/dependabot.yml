@@ -1,6 +1,5 @@
 version: 2
 enable-beta-ecosystems: true
-# Editing should run the check_run
 updates:
   - package-ecosystem: "gomod"
     directory: "/"
