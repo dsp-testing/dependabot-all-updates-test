@@ -35,6 +35,16 @@ module "distribution_label" {
   delimiter  = "${var.delimiter}"
   tags       = "${var.tags}"
 }
+  
+module "s3-webapp-first" {
+  source  = "app.terraform.io/example-org-5d3190/s3-webapp/aws"
+  version = "0.11.0"
+}
+
+module "s3-webapp-second" {
+  source  = "app.terraform.io/example-org-5d3190/s3-webapp/aws"
+  version = "0.9.1"
+}
 
 resource "aws_cloudfront_distribution" "default" {
   enabled             = "${var.enabled}"
