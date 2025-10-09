@@ -103,7 +103,7 @@ GEM
       polyglot (>= 0.3.1)
     tzinfo (0.3.56)
     unicode-display_width (1.6.1)
-
+    webrick (1.8.2)
 PLATFORMS
   ruby
 
@@ -113,6 +113,7 @@ DEPENDENCIES
   rails (= 4.0.0)
   rspec (= 3.7.0)
   rubocop (= 0.76.0)
+  webrick (= 1.8.0)
 
 BUNDLED WITH
    1.17.3
